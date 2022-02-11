@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;600&display=swap');
+.btn-lg{
+    border-radius: 15px;
+    border: none;
+    padding: 14px;
+}
+.bg-light{
+    background-color: rgba(25, 27, 26, 0.08);
+    transition: all ease .3s;
+}
+.bg-light:hover{
+    background-color: rgba(25, 27, 26, 1);
+}
+.f-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.f-lato{
+    font-family: 'Lato', sans-serif;
+}
+.form{
+    color: #474952;
+}
+img{
+    max-width: 100%;
+}
+p{
+    margin: 0 0 15px 0;
+}
+.form-head{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid #DADADA;
+}
+.form-head_title{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.form-head_btn{
+    margin-right: 15px;
+
+}
+.form-info{}
+.form-info_page{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+.form-info_title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+.form-info_text{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+}
+.form-check{
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    padding: 15px 15px 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-check_question{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.form-check.form-check_big .form-check_question{
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-check_question{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.form-check_question-big{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+.form-check_info{
+    width: 185px;
+}
+.form-check_inputs{
+    width: calc(100% - 185px);
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.form-scan{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01C0FC;
+    height: 38px;
+    width: 38px;
+    transition: all ease .3s;
+    margin-left: 10px;
+    border-radius: 14px;
+}
+.form-check_option{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A7A9AC;
+    border-radius: 14px;
+    height: 38px;
+    width: 38px;
+    transition: all ease .3s;
+    margin-left: 10px;
+    opacity: 0.1;
+}
+.form-check_option img{
+    opacity: 0;
+}
+.form-check_option.active{
+    background-color: rgba( 7, 159, 91, 0.1);
+    opacity: 1;
+}
+.form-check_option.active img{
+    opacity: 1;
+}
+.form-next{
+    margin-top: 45px;
+    text-align: center;
+}
